@@ -1,0 +1,61 @@
+.container {
+  position: relative;
+  /* text-align: center; */
+  background-color: grey;
+  width: 465px;
+  height: 700px;
+  /* z-index: 0; */
+}
+.video{
+  width:100%;
+  height: 100%;
+  z-index: 0;
+  position: relative;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 18px;
+  left: 6px;
+  font-size: 1.875em;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  font-size: 1.875em;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.875em;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 1.875em;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.875em;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 50%;
+  z-index: 0;
+}
